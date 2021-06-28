@@ -27,7 +27,7 @@ class Translator(object):
         )
         logger.info("Initialized model")
 
-    def predict(self, data: str):
+    def translate(self, data: str) -> str:
         translated = self.translator(data)
         return translated
 
