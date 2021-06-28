@@ -1,6 +1,7 @@
 ## 목차
 
 - [Web Single Pattern](web_single_pattern)
+- [Synchronous Pattern](synchronous_pattern)
 
 <br>
 

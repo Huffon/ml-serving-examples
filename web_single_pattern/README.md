@@ -1,5 +1,12 @@
 # Web Single Pattern
 
+```shell
+curl -X GET "http://0.0.0.0:8080/predict/test"
+curl -X POST "http://0.0.0.0:8080/predict" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{\"data\":\"자연어 처리는 재미있다.\"}"
+```
+
+<br>
+
 ## 유즈케이스
 
 가장 간단한 구조로 예측 모델을 빠르게 배포하고자 할 때

@@ -14,7 +14,8 @@ build:
 run:
 	docker run \
 		-d \
-		--name $(WEB_SINGLE_PATTERN)
+		--name $(WEB_SINGLE_PATTERN) \
+		$(WEB_SINGLE_PATTERN)_$(IMAGE_VERSION)
 
 .PHONY: stop
 stop:
